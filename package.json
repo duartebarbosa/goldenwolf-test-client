@@ -6,7 +6,8 @@
     "bowser": "",
     "grunt": "~0.4.0",
     "grunt-zipstream": "~0.2.0", 
-    "grunt-phonegap-build": "https://github.com/centralway/grunt-phonegap-build/tarball/master"
+    "grunt-phonegap-build": "https://github.com/centralway/grunt-phonegap-build/tarball/master",
+    "karma": "*"
   },
   "author": "Oliver Tupman",
   "homepage": ""

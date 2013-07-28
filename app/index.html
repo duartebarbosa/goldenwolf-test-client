@@ -25,7 +25,7 @@
                 <h1>goldenwolf-test-client</h1>
                 <button ng-click="getTodos()">Get todos</button>
                 <br/>
-                <strong>Todos ({{todos.length}})</strong>
+                <strong>Todos <span id="todoCount">({{todos.length}})</span></strong>
                 <ul>
                   <li ng-repeat="todo in todos">{{todo.text}}</li>
                   <li ng-show="todos.length == 0">No todos yet</li>

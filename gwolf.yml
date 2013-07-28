@@ -4,3 +4,10 @@ rvm:
 env:
   global:
     - BLAH=1000
+app:
+  location: app.zip
+  format: build.phonegap
+  port: 8000
+tests:
+  acceptance: tests/e2e/**/*spec.js
+  performance: tests/perf/**/*spec.js
