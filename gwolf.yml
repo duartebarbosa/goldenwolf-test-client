@@ -1,13 +1,22 @@
-language: ruby
+language: 
+  - ruby
+  - node
 rvm:
   - 1.9.3
+npm:
+  - "0.9"
 env:
   global:
     - BLAH=1000
+pre-run:
+  - "grunt setup-api"
 app:
   location: app.zip
   format: build.phonegap
   port: 8000
+  platforms:
+    - "4"
+    - "2"
 tests:
   acceptance: tests/e2e/**/*spec.js
   performance: tests/perf/**/*spec.js
