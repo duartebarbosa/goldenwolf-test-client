@@ -13,5 +13,5 @@ angular.module('goldenwolf-test-clientApp',
     $locationProvider.html5Mode(false);
   }])
   .value('appConfig', {
-    apiRoot: 'http://localhost\\:3000'
+    apiRoot: 'http://goldenwolf-demoapp-api.herokuapp.com'
   });  
