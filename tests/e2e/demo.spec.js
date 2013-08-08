@@ -4,6 +4,7 @@ describe("Todo retrieval", function() {
   });
   
   it("should load TODOs", function() {
+  	console.log("WHOOP WHOOP WHOOP!");
     element(':button').click();
     expect(element('#todoCount').text()).toEqual('(1)');
   });

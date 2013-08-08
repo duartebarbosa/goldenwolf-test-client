@@ -10,7 +10,9 @@
     , "grunt-exec": "0.4"
   },
   "devDependencies": {
-    "karma": "*"
+    "karma": "0.10.1",
+    "karma-ng-scenario": "*",
+    "karma-mobile-reporter": "*"
   },
   "author": "Oliver Tupman",
   "homepage": ""
