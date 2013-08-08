@@ -14,7 +14,7 @@ var MobileReporter = function(baseReporterDecorator, formatError) {
     var result = browser.lastResult;
     var timestamp = (new Date()).toISOString().substr(0, 19);
    
-      console.log(browser.name + " " + browser.id + " at " + timestamp + "\n")
+      console.log(browser.name + " id: " + browser.id + " at " + timestamp + "\n")
       console.log('tests ' + result.total + "\n")
       console.log('errors ' + (result.disconnected || result.error ? 1 : 0) + "\n")
       console.log('failures ' + result.failed + "\n")
