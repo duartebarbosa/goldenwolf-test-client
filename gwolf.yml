@@ -1,6 +1,5 @@
 language:
   node:
-    npm: "0.9"
     karma: "*"
     local:
       - "karma-mobile-reporter"
