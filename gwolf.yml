@@ -1,12 +1,11 @@
-language: 
-  - node
+language:
+  node:
     npm: "0.9"
-    grunt: "*"
+    karma: "*"
     extra:
       - "karma-mobile-reporter"
-  - ruby
-    rvm:
-      - 1.9.3
+  ruby:
+    rvm: 1.9.3
 env:
   global:
     - BLAH=1000
