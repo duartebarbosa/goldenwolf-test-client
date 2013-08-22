@@ -11,5 +11,8 @@
     "angular": "1.0.6",
     "lungo-angular-bridge": "git@github.com:centralway/lungo-angular-bridge.git#0.1.1",
     "angular-resource": "*"
+  },
+  "resolutions": {
+    "angular": "1.0.6"
   }
 }
