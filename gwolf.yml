@@ -2,8 +2,8 @@ language:
   node:
     nvm: "0.10"
     karma: "*"
-    local:
-      - "karma-mobile-reporter"
+    #local:
+    #  - "karma-mobile-reporter"
   ruby:
     rvm: 1.9.3
 env:
