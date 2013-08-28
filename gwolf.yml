@@ -19,5 +19,4 @@ app:
     - "4"
     - "2"
 tests:
-  acceptance: tests/e2e/**/*spec.js
-  performance: tests/perf/**/*spec.js
+  acceptance: config/tests-e2e.conf
