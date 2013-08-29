@@ -2,6 +2,11 @@ language:
   node:
     nvm: "0.10"
     karma: "*"
+    karma-ng-scenario: "*"
+    grunt-karma: "*"
+    grunt-zipstream: "*"
+    grunt-phonegap-build: "*"
+    grunt-exec: "*"
     #local:
     #  - "karma-mobile-reporter"
   ruby:
