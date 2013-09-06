@@ -25,4 +25,5 @@ app:
     - "2"
 tests:
   acceptance: config/tests-e2e.conf
+  e2e: config/tests-e2e.conf
 webserver: "cd app\n python -m SimpleHTTPServer &\n cd .."
