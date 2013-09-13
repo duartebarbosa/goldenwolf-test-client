@@ -10,7 +10,7 @@
     "lungo": "latest",
     "angular": "1.0.6",
     "lungo-angular-bridge": "https://github.com/centralway/lungo-angular-bridge.git#0.1.1",
-    "angular-resource": "*"
+    "angular-resource": "1.0.6"
   },
   "resolutions": {
     "angular": "1.0.6"
