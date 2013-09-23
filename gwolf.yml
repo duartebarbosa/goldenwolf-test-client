@@ -14,7 +14,7 @@ language:
 env:
   global:
     - BLAH=1000
-pre-run:
+pre_run:
   - "grunt setup-api"
 app:
   location: app.zip
