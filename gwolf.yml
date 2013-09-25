@@ -1,6 +1,6 @@
 language:
   node:
-    nvm: "0.10"
+    nvm: "0.10.18"
     karma: "*"
     karma-ng-scenario: "*"
     grunt-karma: "*"
